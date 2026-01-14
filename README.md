@@ -2,7 +2,7 @@
 
 ## 📅 Commit Calendar
 
-![Isometric calendar](./metrics_renders/isometric-calendar.svg?v=3)
+![Isometric calendar](./isometric-calendar.svg?v=3)
 
 
 
