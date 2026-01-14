@@ -2,7 +2,7 @@ name: GitHub Metrics
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # mỗi ngày
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
@@ -27,3 +27,7 @@ jobs:
 
           plugin_achievements: yes
           plugin_achievements_threshold: C
+
+          # 🔥 Commit calendar
+          plugin_calendar: yes
+          plugin_calendar_limit: 1
