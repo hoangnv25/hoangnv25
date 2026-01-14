@@ -35,13 +35,13 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: hoangnv25
-
+  
           template: classic
           base: ""
           filename: isometric-calendar.svg
-          output_path: .
+  
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
 
-          plugin_isometric_calendar: yes
-          plugin_isometric_calendar_duration: full-year
 
 
