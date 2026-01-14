@@ -36,10 +36,11 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: hoangnv25
 
-          # ⚠️ CỰC KỲ QUAN TRỌNG
           template: classic
-          base: ""            # ← phải để rỗng
+          base: ""
           filename: isometric-calendar.svg
+          output_path: .
 
           plugin_isometric_calendar: yes
           plugin_isometric_calendar_duration: full-year
+
